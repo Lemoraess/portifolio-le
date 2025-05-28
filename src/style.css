@@ -35,6 +35,10 @@ h3 {
   font-weight: 700;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 14px;
 }
@@ -50,6 +54,44 @@ header h2 {
 header p {
   font-size: 36px;
   font-weight: 700;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background-color: var(--header-background);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--button-background-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--button-background-color);
+  background-color: var(--header-background);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+footer .social-link a:hover {
+  color: white;
+  background-color: var(--button-background-color);
 }
 
 .btn-header {
@@ -105,6 +147,15 @@ header p {
   header {
     padding: 150px 20px;
   }
+
+  footer .contact-box {
+    padding: 30px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
   .btn-apps {
     display: block;
     margin: 0 auto;
