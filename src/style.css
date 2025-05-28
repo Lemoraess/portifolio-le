@@ -140,16 +140,15 @@ footer .social-link a:hover {
 }
 
 @media (max-width: 992px) {
-  header h1 {
-    font-size: 44px;
+  h1 {
+    font-size: 40px !important;
+    padding: 20px;
+    text-align: center;
+    margin: 10px !important;
   }
 
   header {
     padding: 150px 20px;
-  }
-
-  footer .contact-box {
-    padding: 30px;
   }
 
   h4 {
