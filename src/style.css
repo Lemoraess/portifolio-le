@@ -63,8 +63,31 @@ h2 {
   background-color: var(--header-background);
 }
 
-@media (max-width: 900px) {
-  h1 {
+.about-box {
+  padding: 120px 30px;
+}
+
+.about-box h1 {
+  font-size: 64px;
+}
+
+.about-box h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.about-box p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.work-header {
+  font-size: 64px;
+  margin: 150px 200px 100px 50px;
+}
+
+@media (max-width: 992px) {
+  header h1 {
     font-size: 44px;
   }
 
@@ -74,5 +97,18 @@ h2 {
   .btn-apps {
     display: block;
     margin: 0 auto;
+  }
+
+  .about-box {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .about-box h1 {
+    font-size: 44px;
+  }
+
+  .work-header h1 {
+    font-size: 44px;
   }
 }
