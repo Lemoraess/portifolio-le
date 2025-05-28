@@ -111,4 +111,8 @@ h2 {
   .work-header h1 {
     font-size: 44px;
   }
+
+  .photo-le {
+    max-width: 70%;
+  }
 }
